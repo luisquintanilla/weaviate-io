@@ -16,8 +16,8 @@ import TSCodeLocal from '!!raw-loader!/_includes/code/starter-guides/generative_
 ## Overview
 
 :::info Related pages
-- [Which Weaviate is right for me?](./which-weaviate.md)
-- [How-to: Generative search](../search/generative.md)
+- [Which Weaviate is right for me?](../step-1-deployment/which-weaviate.md)
+- [How-to: Generative search](/weaviate/search/generative.md)
 :::
 
 This pages introduces you to generative search with Weaviate. It covers:
@@ -29,7 +29,7 @@ This pages introduces you to generative search with Weaviate. It covers:
 
 ### Prerequisites
 
-This guide assumes some familiarity with Weaviate, but it is not required. If you are new to Weaviate, we suggest starting with the [Weaviate Quickstart guide](../quickstart/index.md).
+This guide assumes some familiarity with Weaviate, but it is not required. If you are new to Weaviate, we suggest starting with the [Weaviate Quickstart guide](/weaviate/quickstart/index.md).
 
 ## Background
 
@@ -348,7 +348,7 @@ services:
       ENABLE_MODULES: 'text2vec-cohere,text2vec-huggingface,text2vec-openai,text2vec-palm,generative-cohere,generative-openai,generative-palm'
 ```
 
-Check the specific documentation for your deployment method ([Docker](../installation/docker-compose.md), [Kubernetes](../installation/kubernetes.md), [Embedded Weaviate](../installation/embedded.md)) for more information on how to configure it.
+Check the specific documentation for your deployment method ([Docker](/weaviate/installation/docker-compose.md), [Kubernetes](/weaviate/installation/kubernetes.md), [Embedded Weaviate](/weaviate/installation/embedded.md)) for more information on how to configure it.
 
 </details>
 
@@ -387,7 +387,7 @@ And the `generative-openai` module may be configured as follows:
     }
 ```
 
-Please see the [documentation](../modules/reader-generator-modules/index.md) for the appropriate module for more information on configurable properties.
+Please see the [documentation](/weaviate/modules/reader-generator-modules/index.md) for the appropriate module for more information on configurable properties.
 
 </details>
 
@@ -746,7 +746,7 @@ Our own [Connor Shorten's podcast](https://weaviate.io/podcast) is a great resou
 
 We've explored the dynamic capabilities of generative search in Weaviate, showcasing how it enhances large language models through retrieval-augmented generation.
 
-To learn more about specific search capabilities, check out the [How-to: search guide](../search/index.md). And to learn more about individual modules, check out the [Modules section](../modules/index.md).
+To learn more about specific search capabilities, check out the [How-to: search guide](/weaviate/search/index.md). And to learn more about individual modules, check out the [Modules section](/weaviate/modules/index.md).
 
 
 import DocsMoreResources from '/_includes/more-resources-docs.md';

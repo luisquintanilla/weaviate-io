@@ -455,7 +455,7 @@ To review the current `pq` configuration, you can retrieve it as shown below.
 ## Related pages
 
 - [Configuration: Vector index](../config-refs/schema/vector-index.md)
-- [Tutorial: Schema](../starter-guides/schema.md)
+- [Tutorial: Schema](../tutorials/schema.md)
 
 import DocsMoreResources from '/_includes/more-resources-docs.md';
 

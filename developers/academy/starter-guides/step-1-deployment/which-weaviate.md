@@ -1,5 +1,5 @@
 ---
-title: Which Weaviate setup to use?
+title: Which Weaviate setup is right for me?
 sidebar_position: 10
 image: og/docs/tutorials.jpg
 # tags: ['getting started']
@@ -10,13 +10,13 @@ image: og/docs/tutorials.jpg
 
 Weaviate can be configured and deployed in many different ways. Generally, the two first decisions to make in using Weaviate involve:
 
-- The choice of [deployment setup](../installation/index.md), and
-- The choice of [vectorizer modules](../modules/retriever-vectorizer-modules/index.md) to enable.
+- The choice of [deployment setup](/weaviate/installation/index.md), and
+- The choice of [vectorizer modules](/weaviate/modules/retriever-vectorizer-modules/index.md) to enable.
 
 This page helps you to find the right combination for your needs.
 
 :::tip
-In all cases, we recommend using a [Weaviate client library](../client-libraries/index.md) to interact with your Weaviate instance.
+In all cases, we recommend using a [Weaviate client library](/weaviate/client-libraries/index.md) to interact with your Weaviate instance.
 :::
 
 ## Available options
@@ -24,10 +24,10 @@ In all cases, we recommend using a [Weaviate client library](../client-libraries
 ### Deployment
 
 Weaviate can be deployed in the following ways:
-- [Embedded Weaviate](../installation/embedded.md)
-- [Docker-Compose](../installation/docker-compose.md)
-- [Weaviate Cloud Services (WCS)](../installation/weaviate-cloud-services.md)
-- [Self-managed Kubernetes](../installation/kubernetes.md)
+- [Embedded Weaviate](/weaviate/installation/embedded.md)
+- [Docker-Compose](/weaviate/installation/docker-compose.md)
+- [Weaviate Cloud Services (WCS)](/weaviate/installation/weaviate-cloud-services.md)
+- [Self-managed Kubernetes](/weaviate/installation/kubernetes.md)
 - [Hybrid SaaS](https://weaviate.io/pricing)
 
 ### Vectorization
@@ -109,19 +109,19 @@ We recommend starting from the following table of vectorizers and their availabi
 
 | Module type | Modality | Module | Embedded Weaviate  | Weaviate Cloud Services | Docker-Compose | Kubernetes | Hybrid SaaS |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Vectorizer | **Text** | [`text2vec-cohere`](../modules/retriever-vectorizer-modules/text2vec-cohere.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Vectorizer | **Text** | [`text2vec-huggingface`](../modules/retriever-vectorizer-modules/text2vec-huggingface.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Vectorizer | **Text** | [`text2vec-openai`](../modules/retriever-vectorizer-modules/text2vec-openai.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Vectorizer | **Text** | [`text2vec-palm`](../modules/retriever-vectorizer-modules/text2vec-palm.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Vectorizer | **Text** | [`text2vec-transformers`](../modules/retriever-vectorizer-modules/text2vec-transformers.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Vectorizer | **Text** | [`text2vec-gpt4all`](../modules/retriever-vectorizer-modules/text2vec-gpt4all.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Vectorizer | **Text** | [`text2vec-contextionary`](../modules/retriever-vectorizer-modules/text2vec-contextionary.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Vectorizer | **Text & Image** | [`multi2vec-clip`](../modules/retriever-vectorizer-modules/multi2vec-clip.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Vectorizer | **7 ([List](../modules/retriever-vectorizer-modules/multi2vec-bind.md#class-level))** | [`multi2vec-bind`](../modules/retriever-vectorizer-modules/multi2vec-bind.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Vectorizer | **Image** | [`img2vec-neural`](../modules/retriever-vectorizer-modules/img2vec-neural.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Vectorizer | **Vectors** | [`ref2vec-centroid`](../modules/retriever-vectorizer-modules/ref2vec-centroid.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Reranker | **Text** | [`reranker-cohere`](../modules/retriever-vectorizer-modules/reranker-cohere.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Reranker | **Text** | [`reranker-transformers`](../modules/retriever-vectorizer-modules/reranker-transformers.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Vectorizer | **Text** | [`text2vec-cohere`](/weaviate/modules/retriever-vectorizer-modules/text2vec-cohere.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Vectorizer | **Text** | [`text2vec-huggingface`](/weaviate/modules/retriever-vectorizer-modules/text2vec-huggingface.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Vectorizer | **Text** | [`text2vec-openai`](/weaviate/modules/retriever-vectorizer-modules/text2vec-openai.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Vectorizer | **Text** | [`text2vec-palm`](/weaviate/modules/retriever-vectorizer-modules/text2vec-palm.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Vectorizer | **Text** | [`text2vec-transformers`](/weaviate/modules/retriever-vectorizer-modules/text2vec-transformers.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Vectorizer | **Text** | [`text2vec-gpt4all`](/weaviate/modules/retriever-vectorizer-modules/text2vec-gpt4all.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Vectorizer | **Text** | [`text2vec-contextionary`](/weaviate/modules/retriever-vectorizer-modules/text2vec-contextionary.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Vectorizer | **Text & Image** | [`multi2vec-clip`](/weaviate/modules/retriever-vectorizer-modules/multi2vec-clip.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Vectorizer | **7 ([List](/weaviate/modules/retriever-vectorizer-modules/multi2vec-bind.md#class-level))** | [`multi2vec-bind`](/weaviate/modules/retriever-vectorizer-modules/multi2vec-bind.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Vectorizer | **Image** | [`img2vec-neural`](/weaviate/modules/retriever-vectorizer-modules/img2vec-neural.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Vectorizer | **Vectors** | [`ref2vec-centroid`](/weaviate/modules/retriever-vectorizer-modules/ref2vec-centroid.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Reranker | **Text** | [`reranker-cohere`](/weaviate/modules/retriever-vectorizer-modules/reranker-cohere.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Reranker | **Text** | [`reranker-transformers`](/weaviate/modules/retriever-vectorizer-modules/reranker-transformers.md) | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 
 import DocsMoreResources from '/_includes/more-resources-docs.md';

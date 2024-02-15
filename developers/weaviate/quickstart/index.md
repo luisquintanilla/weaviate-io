@@ -30,7 +30,7 @@ With Weaviate, you have options to:
 - Have **Weaviate create vectors** for you, or
 - Specify **custom vectors**.
 
-This tutorial demonstrates having Weaviate create vectors with a vectorizer. For a tutorial on using custom vectors, see [this tutorial](../starter-guides/custom-vectors.mdx).
+This tutorial demonstrates having Weaviate create vectors with a vectorizer. For a tutorial on using custom vectors, see [this tutorial](/developers/academy/starter-guides/step-2-scenario/custom-vectors).
 
 #### Source data
 
