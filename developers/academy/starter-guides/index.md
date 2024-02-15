@@ -15,6 +15,8 @@ That makes the most sense for your needs.
 
 ## Step 1: Deploy Weaviate
 
+### Where to start?
+
 <div class="row __academy_cardgroup">
     <div class="col col--6">
         <AcademyCard
@@ -25,28 +27,33 @@ That makes the most sense for your needs.
         buttonURL="./step-1-deployment/which-weaviate.md"
         />
     </div>
-    <div class="col col--6">
+</div>
+
+### Deployment options
+
+<div class="row __academy_cardgroup">
+    <div class="col col--4">
         <AcademyCard
         title="Embedded Weaviate"
-        body="Not sure which deployment setup is right for you? Start here:"
+        body="For basic, quick evaluation. Conveniently launch Weaviate directly from Python or TS/JS and get started in minutes."
         buttonType="Click here"
         badgeType="practical"
         buttonURL="/weaviate/installation/embedded.md"
         />
     </div>
-    <div class="col col--6">
+    <div class="col col--4">
         <AcademyCard
         title="Docker-Compose"
-        body="Not sure which deployment setup is right for you? Start here:"
+        body="For local evaluation & development. Spin up a customizable, local instance of Weaviate, with optional local inference containers and multi-modal models."
         buttonType="Click here"
         badgeType="practical"
         buttonURL="/weaviate/installation/docker-compose.md"
         />
     </div>
-    <div class="col col--6">
+    <div class="col col--4">
         <AcademyCard
         title="Weaviate Cloud Services (WCS)"
-        body="Not sure which deployment setup is right for you? Start here:"
+        body="From evaluation (sandbox) to production. Use our Serverless (infrastructure managed by Weaviate) deployment for a fully managed, scalable, and secure Weaviate instance. No DevOps required."
         buttonType="Click here"
         badgeType="practical"
         buttonURL="/weaviate/installation/weaviate-cloud-services.md"
@@ -58,6 +65,32 @@ That makes the most sense for your needs.
 
 Once you have deployed Weaviate, choose a usage scenario that best meets your needs:
 
-- [Search through text data](./step-2-scenario/text-search.md)
-- [Index your own vectors](./step-2-scenario/custom-vectors.mdx)
-- [Build an AI-powered app (RAG)](./step-2-scenario/generative.md)
+<div class="row __academy_cardgroup">
+    <div class="col col--4">
+        <AcademyCard
+        title="Search through text data"
+        body="Not sure which deployment setup is right for you? Start here!"
+        buttonType="Click here"
+        badgeType="practical"
+        buttonURL="./step-2-scenario/text-search.md"
+        />
+    </div>
+    <div class="col col--4">
+        <AcademyCard
+        title="Index your own vectors"
+        body="For those look to import pre-existing vectors into a vector database. Learn how to store, index and search using your own vectors in Weaviate."
+        buttonType="Click here"
+        badgeType="practical"
+        buttonURL="./step-2-scenario/custom-vectors.mdx"
+        />
+    </div>
+    <div class="col col--4">
+        <AcademyCard
+        title="Power an AI-app with Weaviate"
+        body="Learn how to power AI-applications with powerful search and retrieval augmented generation (RAG) capabilities."
+        buttonType="Click here"
+        badgeType="practical"
+        buttonURL="./step-2-scenario/generative.md"
+        />
+    </div>
+</div>
