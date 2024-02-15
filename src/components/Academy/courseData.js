@@ -1,7 +1,28 @@
 export const courseData = {
+  "starter_project": {
+    title: "WA100: Just bring data",
+    courseId: "1",
+    body: "Project-based learning where you'll learn how to get insights from your data with Weaviate. We'll use a movie dataset and built-in vectorizers.",
+    buttonType: "Click here",
+    buttonURL: "/developers/academy/starter_project",
+    badgeType: "course",
+    isCourse: true,
+    units: [
+      "wcs_basics", "movie_collections", "movie_searches", "movie_rag"
+    ],
+    learningGoals: [
+      "How to create a cloud Weaviate instance, add data to it to enable semantic searching, and use AI through retrieval augmented generation."
+    ],
+    learningOutcomes: [
+      "Use Weaviate Cloud Services to create a cloud instance of Weaviate",
+      "Produce, store and index semantic (vector) data from the source data",
+      "Perform vector and hybrid searches",
+      "Use AI (large language models) to augment and transform retrieved data",
+    ]
+  },
   "zero_to_mvp": {
     title: "Zero to MVP: The basics",
-    courseId: "1",
+    courseId: "10",
     body: "Start here: Get started with all the core knowledge and essential skills for building with Weaviate. Learn how to build a Weaviate database and effectively perform queries to find the right data.",
     buttonType: "Click here",
     buttonURL: "/developers/academy/zero_to_mvp",
@@ -45,7 +66,7 @@ export const courseData = {
   },
   "building_with_weaviate": {
     title: "Building with Weaviate",
-    courseId: "2",
+    courseId: "20",
     body: "Expand on the `Getting to MVP` course for deeper dives into key topics vectorizer selection, multi-modal models, and best practices.",
     buttonType: "Click here",
     buttonURL: "/developers/academy/building_with_weaviate",
@@ -66,40 +87,6 @@ export const courseData = {
       "Compare types of indexes used by Weaviate, and modify parameters to balance speed and recall.",
     ]
   },
-  // "configuring_weaviate_instance": {
-  //   title: "Customization using modules",
-  //   courseId: "2",
-  //   body: "",
-  //   buttonType: "Notify",
-  //   badgeType: "course",
-  //   isCourse: true,
-  //   units: [
-  //     "t2v_under_hood", "vectorizer_selection_2", "custom_models", "module_building"
-  //   ],
-  //   learningGoals: [
-  //     "TBC"
-  //   ],
-  //   learningOutcomes: [
-  //     "TBC"
-  //   ]
-  // },
-  // "to_production": {
-  //   title: "Getting to Production",
-  //   courseId: "3",
-  //   body: "Speed to production with authentication & authorization, backups, monitoring and replication.",
-  //   buttonType: "Notify",
-  //   badgeType: "course",
-  //   isCourse: true,
-  //   units: [
-  //     "backups", "auth", "scaling", "replication", "migration", "kubernetes"
-  //   ],
-  //   learningGoals: [
-  //     "TBC"
-  //   ],
-  //   learningOutcomes: [
-  //     "TBC"
-  //   ]
-  // },
   "standalone": {
     title: "Standalone units",
     courseId: "0",
