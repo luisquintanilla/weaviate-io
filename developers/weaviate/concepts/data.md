@@ -123,7 +123,7 @@ Every object stored in Weaviate has a [UUID](https://en.wikipedia.org/wiki/Unive
 
 ### Cross-references
 
-If data objects are related, use [cross-references](/weaviate/manage-data/cross-references.mdx) to represent the relationships. Cross-references in Weaviate are like links that help you retrieve related information. Cross-references capture relationships, but they do not change the vectors of the underlying objects.
+If data objects are related, use [cross-references](/developers/weaviate/manage-data/cross-references.mdx) to represent the relationships. Cross-references in Weaviate are like links that help you retrieve related information. Cross-references capture relationships, but they do not change the vectors of the underlying objects.
 
 To create a reference, use a property from one collection to specify the value of a related property in the other collection.
 

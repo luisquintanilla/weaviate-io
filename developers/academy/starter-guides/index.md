@@ -7,11 +7,9 @@ image: og/docs/tutorials.jpg
 
 import AcademyCard from '/src/components/Academy/card';
 
-Get started with Weaviate by choosing:
+Get started with Weaviate with options that best suit your needs:
 - The deployment setup (step 1), and then
 - A scenario (step 2)
-
-That makes the most sense for your needs.
 
 ## Step 1: Deploy Weaviate
 
