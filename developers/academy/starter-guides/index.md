@@ -36,7 +36,7 @@ Get started with Weaviate with options that best suit your needs:
         body="For basic, quick evaluation. Conveniently launch Weaviate directly from Python or TS/JS and get started in minutes."
         buttonType="Click here"
         badgeType="practical"
-        buttonURL="/weaviate/installation/embedded.md"
+        buttonURL="/developers/weaviate/installation/embedded.md"
         />
     </div>
     <div class="col col--4">
@@ -45,7 +45,7 @@ Get started with Weaviate with options that best suit your needs:
         body="For local evaluation & development. Spin up a customizable, local instance of Weaviate, with optional local inference containers and multi-modal models."
         buttonType="Click here"
         badgeType="practical"
-        buttonURL="/weaviate/installation/docker-compose.md"
+        buttonURL="/developers/weaviate/installation/docker-compose.md"
         />
     </div>
     <div class="col col--4">
@@ -54,7 +54,7 @@ Get started with Weaviate with options that best suit your needs:
         body="From evaluation (sandbox) to production. Use our Serverless (infrastructure managed by Weaviate) deployment for a fully managed, scalable, and secure Weaviate instance. No DevOps required."
         buttonType="Click here"
         badgeType="practical"
-        buttonURL="/weaviate/installation/weaviate-cloud-services.md"
+        buttonURL="/developers/weaviate/installation/weaviate-cloud-services.md"
         />
     </div>
 </div>
@@ -70,7 +70,7 @@ Once you have deployed Weaviate, choose a usage scenario that best meets your ne
         body="Not sure which deployment setup is right for you? Start here!"
         buttonType="Click here"
         badgeType="practical"
-        buttonURL="./step-2-scenario/text-search.md"
+        buttonURL="/developers/academy/starter-guides/step-2-scenario/text-search.md"
         />
     </div>
     <div class="col col--4">
@@ -79,7 +79,7 @@ Once you have deployed Weaviate, choose a usage scenario that best meets your ne
         body="For those look to import pre-existing vectors into a vector database. Learn how to store, index and search using your own vectors in Weaviate."
         buttonType="Click here"
         badgeType="practical"
-        buttonURL="./step-2-scenario/custom-vectors.mdx"
+        buttonURL="/developers/academy/starter-guides/step-2-scenario/custom-vectors.mdx"
         />
     </div>
     <div class="col col--4">
@@ -88,7 +88,7 @@ Once you have deployed Weaviate, choose a usage scenario that best meets your ne
         body="Learn how to power AI-applications with powerful search and retrieval augmented generation (RAG) capabilities."
         buttonType="Click here"
         badgeType="practical"
-        buttonURL="./step-2-scenario/generative.md"
+        buttonURL="/developers/academy/starter-guides/step-2-scenario/generative.md"
         />
     </div>
 </div>
