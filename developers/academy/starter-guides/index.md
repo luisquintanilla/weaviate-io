@@ -1,21 +1,63 @@
 ---
-title: Getting Started Guides
+title: Starter guides
 sidebar_position: 0
 image: og/docs/tutorials.jpg
 # tags: ['getting started']
 ---
 
+import AcademyCard from '/src/components/Academy/card';
 
-## Overview
+Get started with Weaviate by choosing:
+- The deployment setup (step 1), and then
+- A scenario (step 2)
 
-In this section, you'll find basic guides to help you get started with Weaviate.
+That makes the most sense for your needs.
 
-## Prerequisites
+## Step 1: Deploy Weaviate
 
-Before reading these guides, we recommend you read the [Quickstart Tutorial](/weaviate/quickstart/index.md), which will help you familiarize yourself with the basics of Weaviate.
+<div class="row __academy_cardgroup">
+    <div class="col col--6">
+        <AcademyCard
+        title="Which setup is right for me?"
+        body="Not sure which deployment setup is right for you? Start here!"
+        buttonType="Click here"
+        badgeType="theory"
+        buttonURL="./step-1-deployment/which-weaviate.md"
+        />
+    </div>
+    <div class="col col--6">
+        <AcademyCard
+        title="Embedded Weaviate"
+        body="Not sure which deployment setup is right for you? Start here:"
+        buttonType="Click here"
+        badgeType="practical"
+        buttonURL="/weaviate/installation/embedded.md"
+        />
+    </div>
+    <div class="col col--6">
+        <AcademyCard
+        title="Docker-Compose"
+        body="Not sure which deployment setup is right for you? Start here:"
+        buttonType="Click here"
+        badgeType="practical"
+        buttonURL="/weaviate/installation/docker-compose.md"
+        />
+    </div>
+    <div class="col col--6">
+        <AcademyCard
+        title="Weaviate Cloud Services (WCS)"
+        body="Not sure which deployment setup is right for you? Start here:"
+        buttonType="Click here"
+        badgeType="practical"
+        buttonURL="/weaviate/installation/weaviate-cloud-services.md"
+        />
+    </div>
+</div>
 
-## Guides
+## Step 2: Usage Scenarios
 
-- [Which Weaviate setup to use?](./step-1-deployment/which-weaviate.md): Find the right Weaviate setup for your needs.
-- [Bring your own vectors](./step-2-scenario/custom-vectors.mdx): How to use your own vectors with Weaviate.
-- [Generative search (RAG)](./step-2-scenario/generative.md): Guide to performing generative search (also called retrieval augmented generation, or RAG) with Weaviate.
+Once you have deployed Weaviate, choose a usage scenario that best meets your needs:
+
+- [Search through text data](./step-2-scenario/text-search.md)
+- [Index your own vectors](./step-2-scenario/custom-vectors.mdx)
+- [Build an AI-powered app (RAG)](./step-2-scenario/generative.md)
